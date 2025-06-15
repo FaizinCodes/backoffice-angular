@@ -1,0 +1,3 @@
+echo "⚠️ Do not use --no-verify. All commits must pass linting and validation."
+
+npm run test -- --no-watch --no-progress --code-coverage --browsers=ChromeHeadless

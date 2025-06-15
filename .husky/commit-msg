@@ -1,0 +1,3 @@
+echo "⚠️  Do not use --no-verify. All commits must pass linting and validation."
+
+npm run commitlint -- "$1"
