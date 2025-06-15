@@ -1,0 +1,72 @@
+[
+  {
+    "country": "Indonesia",
+    "currency": "Rupiah",
+    "currencyCode": "IDR",
+    "currencySymbol": "Rp",
+    "locale": "id-ID"
+  },
+  {
+    "country": "United States",
+    "currency": "US Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "locale": "en-US"
+  },
+  {
+    "country": "Japan",
+    "currency": "Yen",
+    "currencyCode": "JPY",
+    "currencySymbol": "¥",
+    "locale": "ja-JP"
+  },
+  {
+    "country": "Thailand",
+    "currency": "Baht",
+    "currencyCode": "THB",
+    "currencySymbol": "฿",
+    "locale": "th-TH"
+  },
+  {
+    "country": "United Kingdom",
+    "currency": "Pound Sterling",
+    "currencyCode": "GBP",
+    "currencySymbol": "£",
+    "locale": "en-GB"
+  },
+  {
+    "country": "European Union",
+    "currency": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "locale": "de-DE"
+  },
+  {
+    "country": "China",
+    "currency": "Yuan",
+    "currencyCode": "CNY",
+    "currencySymbol": "¥",
+    "locale": "zh-CN"
+  },
+  {
+    "country": "India",
+    "currency": "Rupee",
+    "currencyCode": "INR",
+    "currencySymbol": "₹",
+    "locale": "hi-IN"
+  },
+  {
+    "country": "Australia",
+    "currency": "Australian Dollar",
+    "currencyCode": "AUD",
+    "currencySymbol": "$",
+    "locale": "en-AU"
+  },
+  {
+    "country": "Canada",
+    "currency": "Canadian Dollar",
+    "currencyCode": "CAD",
+    "currencySymbol": "$",
+    "locale": "en-CA"
+  }
+]

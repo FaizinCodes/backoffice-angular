@@ -1,0 +1,13 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-tailwindcss"],
+  "rules": {
+    "no-empty-source": true,
+    "at-rule-empty-line-before": null,
+    "custom-property-pattern": null,
+    "custom-property-empty-line-before": null,
+    "value-keyword-case": null,
+    "at-rule-no-deprecated": null,
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9-]*$",
+    "selector-id-pattern": "^[a-z][a-zA-Z0-9-]*$"
+  }
+}

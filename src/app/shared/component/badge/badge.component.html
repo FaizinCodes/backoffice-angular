@@ -1,0 +1,12 @@
+<span
+  class="text-theme-xs rounded-full px-2 py-0.5 font-medium"
+  [ngClass]="{
+    'bg-warning-50 text-warning-700 dark:bg-warning-500/15 dark:text-warning-400':
+      badge() === 'warning',
+    'bg-error-50 text-error-700 dark:bg-error-500/15 dark:text-error-500': badge() === 'danger',
+    'bg-success-50 text-success-700 dark:bg-success-500/15 dark:text-success-500':
+      badge() === 'success',
+  }"
+>
+  {{ text() }}
+</span>

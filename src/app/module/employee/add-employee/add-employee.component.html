@@ -1,0 +1,86 @@
+<div
+  class="min-h-[calc(100vh_-_97px)] rounded-2xl border border-gray-200 bg-white px-5 py-7 lg:min-h-[calc(100vh_-_125px)] lg:px-10 lg:py-12 dark:border-gray-800 dark:bg-white/[0.03]"
+>
+  <h2 class="mb-6 text-lg font-semibold text-white">Add Employee</h2>
+
+  <div class="grid gap-4">
+    <!-- Nama -->
+    <app-input
+      type="text"
+      label="Nama"
+      id="nama"
+      placeholder="Masukkan nama lengkap"
+      [formControl]="nameControl"
+    />
+
+    <!-- NPWP -->
+    <app-input
+      type="text"
+      label="NPWP"
+      id="npwp"
+      placeholder="Masukkan nomor NPWP"
+      [formControl]="npwpControl"
+    />
+
+    <!-- KTP -->
+    <app-input
+      type="text"
+      label="KTP"
+      id="ktp"
+      placeholder="Masukkan nomor KTP"
+      [formControl]="ktpControl"
+    />
+
+    <!-- Alamat -->
+    <app-input
+      type="text"
+      label="Alamat"
+      id="alamat"
+      placeholder="Masukkan alamat"
+      [formControl]="addressControl"
+    />
+
+    <app-input
+      type="date"
+      label="No. KK"
+      id="oke"
+      placeholder="Masukkan nomor KK"
+      [formControl]="kkControl"
+    />
+    <!-- Status Pajak -->
+    <app-input
+      type="select"
+      label="Status Pajak"
+      id="statusPajak"
+      [options]="['TK/0', 'K/0', 'K/1', 'K/2', 'K/3']"
+      placeholder="Pilih status pajak"
+      [formControl]="taxTypeControl"
+    />
+
+    <!-- Gaji -->
+    <app-input
+      type="text"
+      label="Gaji"
+      id="gaji"
+      placeholder="Masukkan gaji"
+      [formControl]="salaryControl"
+    />
+
+    <!-- KK -->
+    <app-input
+      type="text"
+      label="No. KK"
+      id="kk"
+      placeholder="Masukkan nomor KK"
+      [formControl]="kkControl"
+    />
+
+    <!-- Tombol Submit -->
+    <button
+      class="mt-6 w-full rounded-lg bg-blue-600 py-2 font-semibold text-white transition hover:bg-blue-700"
+      (click)="submitForm()"
+    >
+      Tambah Karyawan
+    </button>
+  </div>
+</div>
